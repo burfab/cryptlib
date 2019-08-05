@@ -1,4 +1,4 @@
-#ifndef SHA_HASHALGORITHM_H
+#ifndef SHA1_HASHALGORITHM_H
 
 #include <cstdlib>
 
@@ -192,5 +192,5 @@ private:
   size_t m_blockIdx = 0;
   size_t m_msgByteLen = 0;
 };
-#endif // !SHA_HASHALGORITHM_H
+#endif // !SHA1_HASHALGORITHM_H
 };
